@@ -10,7 +10,7 @@
   <dependencies>
     <dependency>
       <groupId>com.bsd.oms</groupId>
-      <artifactId>oms-domai</artifactId>
+      <artifactId>oms-domain</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
