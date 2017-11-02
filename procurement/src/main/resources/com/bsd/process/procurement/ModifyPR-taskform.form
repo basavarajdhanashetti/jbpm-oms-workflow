@@ -1,0 +1,24 @@
+
+<form id="918782194">
+<property name="name" value="ModifyPR-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="quantity" type="InputTextInteger" id="1162610750">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;qtyIN (quantity)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="qtyIN"/>
+<property name="outputBinding" value="qtyOUT"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="material" type="InputText" id="1656881738">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;materialIN (material)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="materialIN"/>
+<property name="outputBinding" value="materialOUT"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="materialIN" name="#FF54A7" type="basicType" outId="materialOUT" value="java.lang.String" id="material"/>
+<dataHolder inputId="qtyIN" name="#BBBBBB" type="basicType" outId="qtyOUT" value="java.lang.Integer" id="quantity"/>
+</form>
