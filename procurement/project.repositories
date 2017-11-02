@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>readhat-ga</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>public-repo</id>
         <url>https://mvnrepository.com/artifact/</url>
         <source>SETTINGS</source>
@@ -11,9 +19,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>fusesource</id>
-        <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/home/vagrant/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
@@ -27,17 +35,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>readhat-ga</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
+        <id>fusesource</id>
+        <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
         <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/home/vagrant/.m2/repository</url>
-        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
