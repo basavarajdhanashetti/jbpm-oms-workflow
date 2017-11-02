@@ -7,6 +7,13 @@
   <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>procurement</name>
+  <dependencies>
+    <dependency>
+      <groupId>com.bsd.oms</groupId>
+      <artifactId>oms-application</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
