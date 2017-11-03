@@ -27,16 +27,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>public-repo</id>
-        <url>https://mvnrepository.com/artifact/</url>
+        <id>fusesource</id>
+        <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>fusesource</id>
-        <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
+        <id>public-repo</id>
+        <url>https://mvnrepository.com/artifact/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
