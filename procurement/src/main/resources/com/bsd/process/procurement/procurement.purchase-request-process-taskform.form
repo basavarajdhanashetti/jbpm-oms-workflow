@@ -31,11 +31,6 @@
 <property name="outputBinding" value="prDetails/requestedBy"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name=":decorator_0" type="Separator" id="1741560992">
-<property name="fieldRequired" value="false"/>
-<property name="readonly" value="false"/>
-<property name="fieldClass" value="Separator"/>
-</field>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="prApproved" value="java.lang.Boolean" id="prApproved"/>
 <dataHolder supportedType="className" inputId="" name="#E9E371" type="dataModelerEntry" outId="prDetails" value="com.bsd.oms.process.PurchaseRequest" id="prDetails"/>
 </form>
